@@ -39,9 +39,9 @@
 
 
 ## 09/11/2022 - Concluido
--Bruno Bocardi Ferreira
+- Bruno Bocardi Ferreira
 - copiryt
--icone
+- icone
 
 ### 10/11/2022
 
@@ -64,3 +64,21 @@
         fazer a pagina do emial marketing e as redes sociais
     }
 }
+
+## 17/11/2022  - A fazer
+-  area de formulario:[
+    - area onde usuários mandam sujestão de projetos
+    - vai para minha caixa de email
+    - futuramente conectar com um banco de dados.
+
+]
+- rotas
+- colocar os projeto
+ ## Em andamento 
+ - Area de contato:{
+    - redes sociais
+    - foto de prfil
+ }
+
+ ## concluido 
+ - Area de conatto inteira

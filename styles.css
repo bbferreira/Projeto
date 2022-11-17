@@ -3,6 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 ul {
     list-style-type: none;
@@ -10,7 +13,7 @@ ul {
     padding: 0;
   }
   #nav{
-    height:80px;
+    height: 230px;
     width:100%;
   }
   #nav-list li{
@@ -38,9 +41,9 @@ ul {
    }
 
    .imagem{
-    width: 400px;
-    height:100%;
-    float:left;
+    width: 350px;
+    height: 350px;
+    float: left;
    }
 
 
@@ -63,6 +66,29 @@ ul {
     display:none;
    }
 
+
+   .avatar{
+    width: 1346px;
+    height: 500px;
+    margin-top: 200px;
+   }
+
+   #sobre-mim{
+    width: 1346px;
+    height: 1969px;
+    margin-top: -160px;
+   }
+
+   .img-ava{
+    margin: 32px 0;
+    padding-top: 190px;
+    width: 300px;
+    height: 100%;
+    margin-top: -3px;
+    margin-left: 150px;
+   }
+
+
    .eu {
     width: 1347px;
     height: 500px;
@@ -70,13 +96,7 @@ ul {
     margin-bottom: 50px;
     
    }
-   .img-ava{
-    margin: 32px 0;
-    padding-top:190px;
-    width: 300px;
-    height:100%;
-    margin-bottom: 50px;
-   }
+   
 
    .titulo{
     font-size: 40px;
@@ -230,9 +250,9 @@ ul {
 #projects{
   display: grid;
   width: 1100px;
-  height: 1385.98px;
+  height: 980.98px;
   place-items: center;
-  margin-top: 1000px;
+  margin-top: 290px;
 }
 .projetos{
   width: 963px;
@@ -339,11 +359,13 @@ align-items: center;
 footer{
   background-color: #6e07f3;
   padding: 50px;
-  color:#ffffff;
+  width: 1346px;
+  height: 449px;
+  color: #ffffff;
 }
 .p-footer{
   text-align: center;
-  margin-top: 90px;
+  margin-top: 0;
   font-size: 20px;
   
 }
@@ -377,10 +399,9 @@ footer{
 
  #contatos{
   display: grid;
-   width: 860px;
-  height: 900px;
-  place-items: center;
-  margin-top: -350px;
+   width: 1300px;
+  height: 980px;
+  margin-top: -100px;
   margin-bottom: 300px;
  }
 
@@ -452,9 +473,16 @@ footer{
 }
 
 .redes-sociais{
-  width: 500px;
-  height: 350px;
-  margin-top: 100px;
+  width: 740px;
+  height: 600px;
+  margin-top: 190px;
+  box-shadow:  5px 5px 0 rgb(233 240 243 / 50%);
+  border-right: 1px solid #E6ECF8;
+  border-top:  white;
+ margin-right: 390px;
+ margin-left: -100px;
+ justify-content: center;
+
 }
 
 .h-redes{
@@ -464,7 +492,7 @@ footer{
   text-align: center;
  font-family: "eurostile", sans-serif;
  color: #141c3a;
- margin-top: -50px;
+ margin-top: 10px;
  }
 
  .p-redes{
@@ -474,32 +502,42 @@ footer{
 }
 
 .dados-perfil{
-  width: 650px;
-  height:320px;
+    width: 735px;
+    height: 475px;
 }
 
 .perfil{
   width: 150px;
   height: 150px;
   border-radius: 80%;
-  border: 3px solid #f7f7f7;
-  margin-inline: 170px;
+  border: 1px solid #141c3a;
+  margin-inline: 292px;
   margin-top: -27px;
   margin-bottom: 60px;
   }
 
+  .i-perfil{
+      width: 147px;
+      height: 147px;
+      border-radius: 50%;
+      background-color: #e6e2df;
+  }
+ 
+
 .p-perfil{
-  font-size: 16px;
-  color: #141c3a;
-  margin-top: -20px;
+  font-size: 20px;
+  color: #7b68ee;
+  margin-top: 20px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .icons-redes{
-  margin-top: 20px;
-  width: 600px;
-  height: 240px;
-  margin-left: 62px;
+  margin-top: 79px;
+  width: 646px;
+  height: 173px;
+  margin-left: 141px;
+  /* margin-right: 63px; */
 }
 
 .d-linkedin{
@@ -578,6 +616,10 @@ footer{
   cursor: pointer;
   margin-top: -70px;
    margin-inline:377px;
+}
+
+.email:hover{
+   background-color: #7b68ee;
 }
 
 .i-email{
