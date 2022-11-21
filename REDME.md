@@ -70,10 +70,8 @@
     - area onde usuários mandam sujestão de projetos
     - vai para minha caixa de email
     - futuramente conectar com um banco de dados.
-
-]
-- rotas
-- colocar os projeto
+    - rotas
+    - colocar os projeto
  ## Em andamento 
  - Area de contato:{
     - redes sociais

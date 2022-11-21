@@ -112,6 +112,13 @@ ul {
     font-family: sans-serif;
     color:white;
     margin-bottom: 50px;
+    margin-top: -20px;
+   }
+   
+   h2{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 150px;
    }
 
    .web{
@@ -180,7 +187,7 @@ ul {
  .card  {
   position:relative;
   width: 400px;
-  height:100%;
+  height:1068px;
   padding: 100px;
   margin:30px;
   margin-left: 80px;
@@ -198,7 +205,7 @@ ul {
 .card2{
   position:relative;
   width: 400px;
-  height:100%;
+  height:1068px;
   padding: 106px;
   margin:30px;
   margin-left: -20px;
@@ -215,7 +222,7 @@ ul {
 .card3{
   position:relative;
   width: 400px;
-  height:100%;
+  height:1068px;
   padding: 110px;
   margin:-100px;
   margin-top: 29px;
