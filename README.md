@@ -33,7 +33,9 @@
       ## -Redes sociais:
             Onde fica meu perfile os links das minhas redes sociais
             
+            
 
+![eu-bruno](https://user-images.githubusercontent.com/108810673/203190120-31e5e4df-e88e-447f-a10d-d2c86fd37a85.png)
 
   ## - Footer
     - Rodapé:
