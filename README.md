@@ -27,11 +27,12 @@
             
             
             
-            
+            ![foto-eu](https://user-images.githubusercontent.com/108810673/203188539-a835eb8e-0ac6-43fb-b5ba-dfdef59c8874.png)
+
         
       ## -Redes sociais:
             Onde fica meu perfile os links das minhas redes sociais
-            ![image](https://user-images.githubusercontent.com/108810673/203187701-696ff713-98b3-4a4b-bc30-d4dc50959ae7.png)
+            
 
 
   ## - Footer
