@@ -27,7 +27,7 @@
             
             
             
-            ![foto-eu](https://user-images.githubusercontent.com/108810673/203188539-a835eb8e-0ac6-43fb-b5ba-dfdef59c8874.png)
+           
 
         
       ## -Redes sociais:
