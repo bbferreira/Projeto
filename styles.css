@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "eurostile";
+      src: url(../fonts/eurostile.TTF);
+    }
+  
+  
+
+
 *{
     margin:0;
     padding:0;
@@ -5,6 +13,7 @@
 }
 html{
   scroll-behavior: smooth;
+   font-family: "eurostile";
 }
 
 ul {
@@ -202,6 +211,7 @@ ul {
   
 }
 
+
 .card2{
   position:relative;
   width: 400px;
@@ -295,10 +305,12 @@ padding:90px;
 margin-top: 50px;
 box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
 border-right: 1px solid #E6ECF8;
-background-color: blue;
+
+background-image: url(./assets/print-cartao.png);
 border-radius: 10px;
 margin-left:95px;
 align-items: center;
+cursor: pointer;
 }
 
 .coluna2{
@@ -313,6 +325,7 @@ border-right: 1px solid #E6ECF8;
 background-color: blue;
 border-radius: 10px;
 align-items: center;
+cursor: pointer;
 }
 
 .coluna3{
@@ -325,18 +338,20 @@ align-items: center;
   margin-left: 805px;
   align-items: center;
   padding:90px;
+  cursor: pointer;
 }
 
 .coluna4{
   width:328.98px;
   height:227.31px;
-  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+  box-shadow: 0 5px 5px  rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
   border-right: 1px solid #E6ECF8;
   background-color: blue;
   border-radius: 10px; 
   margin-top: 20px;
   margin-left: 97px;
   align-items: center;
+  cursor: pointer;
 }
 
 .coluna5{
@@ -348,6 +363,7 @@ align-items: center;
   border-radius: 10px; 
   margin:-230px;
  margin-left: 450px;
+ cursor: pointer;
 }
 
 .coluna6{
@@ -360,6 +376,7 @@ align-items: center;
   margin-left: 805px;
   align-items: center;
   padding:90px;
+  cursor: pointer;
 }
 
 
@@ -483,7 +500,7 @@ footer{
   width: 740px;
   height: 600px;
   margin-top: 190px;
-  box-shadow:  5px 5px 0 rgb(233 240 243 / 50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-right: 1px solid #E6ECF8;
   border-top:  white;
  margin-right: 390px;
@@ -514,8 +531,8 @@ footer{
 }
 
 .perfil{
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 80%;
   border: 1px solid #141c3a;
   margin-inline: 292px;
@@ -524,8 +541,8 @@ footer{
   }
 
   .i-perfil{
-      width: 147px;
-      height: 147px;
+      width: 177px;
+      height: 177px;
       border-radius: 50%;
       background-color: #e6e2df;
   }
@@ -637,7 +654,7 @@ footer{
 
 
 
-  
+ 
 
  
 

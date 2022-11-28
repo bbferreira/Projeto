@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
     <link rel="stylesheet" href="./css/formulario.css">
 </head>
 <body>
-    <h1>Página em andamento</h1>
-    <section>
-    <h2>Contato</h1>
+    <div>
+        <h1>Escreva em detalhes<br> sobre o projeto!</h1>
+        <img src="./assets/adobe.png" alt="" class="avatar"  >
+    </div>
+   <section>
+    <h2>Contato</h2>
         <form action="https://api.staticforms.xyz/submit" method="post">
          <label class="l-name">Nome</label>
-         <input type="text" name="name" placeholder="Digite seu nome" autocomplete="on" class="nome">
+         <input type="text" name="name" placeholder="Digite seu nome" autocomplete="on" class="nome"  required>
          <label class="l-email">Email</label>
-         <input type="email" name="email" placeholder="Digite seu email" autocomplete="on" class="email">
+         <input type="email" name="email" placeholder="Digite seu email" autocomplete="on" class="email" required>
          <label class="l-mensagem ">Mensagem</label>
-         <textarea name="message" cols="60" rows="80" placeholder="Digite seu projeto" class="t-message"></textarea>
+         <textarea name="message" cols="60" rows="80" placeholder="Digite seu projeto" class="t-message" required></textarea>
          <button class="b-form">
             <span>Enviar</span>
          </button>

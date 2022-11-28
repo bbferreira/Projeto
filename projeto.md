@@ -1,4 +1,4 @@
-## Criação de POrtifólio pessoal:
+
 
 ## - Projeto se inicia com uma navbar:
 - Com uma lista:
@@ -26,4 +26,12 @@
        Logo
       copyright com meu nome
 
+## - Pagina de formulário
+     Formulário para deixar ideias de projetos que terei o prazer de realizar!
+     
+## - Página de agradecimento 
+    Local de agradecimento por ter compartilhado suas ideias comigo.
 
+## - 
+ - Feito com Html e css 
+  - Integração com a  api  STATIC FORM enviando dados pelo metodo post para meu email.
