@@ -51,9 +51,11 @@
     
  ![image](https://user-images.githubusercontent.com/108810673/204179323-688d73b6-9548-46ab-b64d-97a03340b912.png)
 
- - Feito com Html e css 
+##Desenvolvimento
+- Feito com Html e css 
   - Integração com a  api  STATIC FORM enviando dados pelo metodo post para meu email.
-  -Javascript para fazer o navbar responsivo (mobile)
+    
+    -Javascript para fazer o navbar responsivo (mobile)
  
   
   
