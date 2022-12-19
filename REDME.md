@@ -83,3 +83,11 @@
 
 
 
+.coluna:hover .b-coluna{
+  display: block;
+  cursor: pointer;
+  background-image: url(./assets/solid.png);
+ 
+}
+
+
