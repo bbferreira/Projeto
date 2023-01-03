@@ -14,11 +14,12 @@
     </div>
    <section>
     <h2>Contato</h2>
-        <form action="https://api.staticforms.xyz/submit" method="post">
+        <form action="https://api.staticforms.xyz/submit" method="post" id="form">
          <label class="l-name">Nome</label>
          <input type="text" name="name" placeholder="Digite seu nome" autocomplete="on" class="nome"  required>
          <label class="l-email">Email</label>
-         <input type="email" name="email" placeholder="Digite seu email" autocomplete="on" class="email" required>
+         <input type="email" name="email" placeholder="Digite seu email" autocomplete="on" class="email required" oninput="emailValidate()">
+         <span class="span-required">Digite um email válido</span>
          <label class="l-mensagem ">Mensagem</label>
          <textarea name="message" cols="60" rows="80" placeholder="Digite seu projeto" class="t-message" required></textarea>
          <button class="b-form">
@@ -29,4 +30,5 @@
         </form>
 </section>
 </body>
+<script src="./js/validacao.js"></script>
 </html>

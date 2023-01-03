@@ -11,6 +11,7 @@
     --secund-color: #E6ECF8;
     --text-color:#141c3a;
     --background-color: #ffffff;
+    --color:red;
     
 }
 
@@ -22,6 +23,7 @@
 }
 
 body{
+    padding:26px 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,17 +40,30 @@ div{
     margin-top: -90px;
     display: inline-block;
 }
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blinking{
+    50%{
+        border-color:transparent;
+    }
+}
 
 h1{
  color: #FFFFFF;
  text-align: center;
  margin-left:15px;
  font-size: 40px;
-font-family: "euroestile";
+font-family: monospace;
+border-right: 1px solid;
+width: 20ch;
+overflow: hidden;
  white-space: nowrap;
  padding-top: 50px;
  margin-top: -80px;
- row-gap: 20px;
+ animation: typing 2s steps(20), blinking 0.5s infinite step-end alternate;
 }
 
 section {
@@ -208,5 +223,31 @@ section {
     height: 400px;
     margin-top: 90px;
 }
+.span-required{
+    display: none;
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    color:var(--color);
+}
 
+@media screen and (max-width:480px) {
+form,input{
+    width: 100%;
+  }
+  section{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+   justify-content: center;
+   flex-direction: column;
+   margin-left: -150px;
+  
+  }
+  .t-message{
+    width: 100%;
+  }
+  div{
+    width: 100%;
+  }
+}
        
