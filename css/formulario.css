@@ -236,12 +236,12 @@ form,input{
   }
   section{
     display: flex;
-    width: 50%;
+    width: 150%;
     margin: 0 auto;
    justify-content: center;
    flex-direction: column;
    margin-left: -150px;
-  
+  margin-top: auto;
   }
   .t-message{
     width: 100%;
