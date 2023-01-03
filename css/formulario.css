@@ -32,8 +32,8 @@ body{
   font-family: "eurostile";
 }
 div{
-    width: 300px;
-    height: 451px;
+    width: 500px;
+    height: 800px;
     display: block;
     flex-direction: row;
     margin-left: -80px;
@@ -62,7 +62,7 @@ width: 20ch;
 overflow: hidden;
  white-space: nowrap;
  padding-top: 50px;
- margin-top: -80px;
+ margin-top: 50px;
  animation: typing 2s steps(20), blinking 0.5s infinite step-end alternate;
 }
 
@@ -230,24 +230,34 @@ section {
     color:var(--color);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:576px) {
 form,input{
     width: 100%;
   }
   section{
     display: flex;
-    width: 150%;
+   width: 90%;
     margin: 0 auto;
    justify-content: center;
    flex-direction: column;
-   margin-left: -150px;
-  margin-top: auto;
+   margin-left: -400px;
+   margin-top: 100px;
   }
   .t-message{
     width: 100%;
   }
   div{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+  }
+  h1{
+    margin-left: 120px;
+    font-size: 5.9vw;
+    
+  }
+  .avatar{
+    display: none;
   }
 }
        
