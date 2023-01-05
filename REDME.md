@@ -91,3 +91,152 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    form,input{
+        width: 100%;
+      }
+      section{
+        display: flex;
+       width: 90%;
+        margin: 0 auto;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: -450px;
+       margin-right: -50px;
+       margin-top: 150px;
+      }
+      .t-message{
+        width: 100%;
+      }
+      div{
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+      }
+      h1{
+        margin-left: 120px;
+        font-size: 5.9vw;
+        
+      }
+      .avatar{
+        display: none;
+      }      
+}
+@media screen and (max-width:992px) {
+    form,input{
+        width: 100%;
+      }
+      section{
+        display: flex;
+       width: 60%;
+        margin: 0 auto;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: -450px;
+       margin-right: -50px;
+       margin-top: 350px;
+      }
+      div{
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+      }
+      h1{
+       text-align: center;
+        font-size: 5.9vw;
+        
+      }
+    
+    .t-message{
+      width: 100%;
+    }
+      
+      .avatar{
+        display: none;
+      }      
+}
+
+@media screen and (max-width:1200px) {
+    section{
+        display: flex;
+       width: 40%;
+        margin: 0 auto;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: -500px;
+       margin-right: -50px;
+       margin-top: 650px;
+       align-items: center;
+      }
+      div{
+        display: flex;
+        flex-direction: column;
+        margin-top: -450px;
+        align-items: center;
+        margin-left: -100px;
+      }
+      h1{
+        margin-left: 50px;
+         font-size: 5.0vw;
+         
+       }
+      .t-message{
+        width: 100%;
+      }
+      .avatar{
+        margin-top: -5px;
+      }
+}
+
+
+@media   (max-width:576px) {
+    form,input{
+        width: 100%;
+      }
+      section{
+        display: flex;
+       width: 80%;
+        margin: 0 auto;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: -450px;
+       margin-right: -50px;
+       margin-top: 150px;
+      }
+      .t-message{
+        width: 100%;
+      }
+      div{
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+      }
+      h1{
+        margin-left: 120px;
+        font-size: 5.9vw;
+        
+      }
+      .avatar{
+        display: none;
+      }
+    }
+  
+
+
+
