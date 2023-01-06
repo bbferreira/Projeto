@@ -375,7 +375,7 @@ section{
         left: 5%;
         top: 40%;
         flex-direction: column;
-        margin-top: -90px;
+        margin-top: -100px;
         margin-left: 10px;
       }
       div{
@@ -384,8 +384,8 @@ section{
         flex-direction: column;
        top:50%;
         left: 50%;
-        margin-top: -300px;
-        margin-left: -300px;
+        margin-top: -200px;
+        margin-left: -250px;;
       }
       h1{
       
@@ -413,7 +413,7 @@ section{
         top: 40%;
         flex-direction: column;
         margin-top: 0px;
-        margin-top: -90px;
+        margin-top: -100px;
         margin-left: 20px;
       }
       div{
@@ -422,8 +422,8 @@ section{
         flex-direction: column;
        top:50%;
         left: 50%;
-        margin-top: -300px;
-        margin-left: -300px;
+        margin-top: -200px;
+        margin-left: -250px;
       }
       h1{
       
