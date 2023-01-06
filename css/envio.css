@@ -16,12 +16,13 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-image: linear-gradient(#333542, #6e07f3);
+    box-sizing: border-box;
     
 }
 .agradecimento{
+    display: flex;
     width: 600px;
     height: 550px;
-    display: flex;
     margin-top: -50px;
     flex-direction: column;
     align-items: center;
